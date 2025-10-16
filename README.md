@@ -8,7 +8,10 @@
 O **Monitor Azcall3** é um microserviço independente para monitoramento em tempo real de **ramais, troncos e chamadas** do Asterisk via **AMI**.  
 Ele coleta eventos do PBX, organiza o estado em memória e publica atualizações para o **painel WebSocket (front Frest)**, exibindo o status dos ramais e troncos sem necessidade de recarregar a página.
 
-Este módulo pode ser **instalado e ativado por cliente**, sem alterar o `ws-server.js` do Azcall3.
+Este módulo pode ser **instalado e ativado por cliente**, sem alterar o core do Azcall3.
+
+Preview do painel:
+![Preview do Monitor Azcall](https://raw.githubusercontent.com/isoazevedo/monitor-azcall/main/img/preview.png)
 
 ---
 
