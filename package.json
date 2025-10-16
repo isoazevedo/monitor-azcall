@@ -1,0 +1,20 @@
+{
+  "name": "monitor-azcall",
+  "version": "1.0.0",
+  "description": "Monitor de ramais, troncos e chamadas do Asterisk em tempo real (sem persistência obrigatória)",
+  "author": "Israel Azevedo",
+  "license": "MIT",
+  "main": "monitor-service.js",
+  "type": "module",
+  "scripts": {
+    "start": "node monitor-service.js",
+    "dev": "NODE_ENV=development node monitor-service.js"
+  },
+  "dependencies": {
+    "@ipcom/asterisk-ami": "^0.0.30",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ws": "^8.11.0",
+    "ioredis": "^5.4.1"
+  }
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Monitor Azcall3 - Tempo Real
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/monitor-azcall
+ExecStart=/usr/bin/node /opt/monitor-azcall/monitor-service.js
+Restart=always
+Environment=NODE_ENV=production
+# Exemplo de caminho para .env
+EnvironmentFile=/opt/monitor-azcall/.env
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

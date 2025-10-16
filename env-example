@@ -1,0 +1,17 @@
+# Examplo de configuração environment para Monitor AzCall
+PORT=5120
+PUBLISH_MODE=socket
+SOCKET_NAMESPACE=/monitor
+ALLOW_ORIGIN=*
+
+# Asterisk Manager Interface (AMI) configuration
+AMI_HOSTS=127.0.0.1
+AMI_PORT=5038
+AMI_USER=usuario_ami
+AMI_PASS=senha_ami
+
+# Redis configuration (se quiser implementar o modo redis)
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+REDIS_PASSWORD=
+REDIS_CHANNEL=monitor-events
