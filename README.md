@@ -11,7 +11,7 @@ Ele coleta eventos do PBX, organiza o estado em memória e publica atualizaçõe
 Este módulo pode ser **instalado e ativado por cliente**, sem alterar o core do Azcall3.
 
 Preview do painel:
-![Preview do Monitor Azcall](https://raw.githubusercontent.com/isoazevedo/monitor-azcall/main/img/preview.png)
+![Preview do Monitor Azcall](https://github.com/isoazevedo/monitor-azcall/blob/main/img/Monitor%20de%20Ramais.png?raw=true)
 
 ---
 
